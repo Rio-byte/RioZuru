@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg,  #FC8DED, #1C1C1C);
+    background-position: center;
+    text-align: center;
+}
+.container:hover{
+
+}
+
+.container h1{
+    color: #000594;
+    font-size: 40px;
+    padding: 30px 0;
+    text-align: center;
+}
+.price-row{
+     width: 20%;
+     max-width: 500px;
+     margin: auto;
+     display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+     grid-gap: 25px;
+     text-align: center;
+
+}
+.price-col{
+    background: linear-gradient(135deg, #1C1C1C, #EA06CB);
+    padding: 4% 7%;
+    border-radius: 10px;
+    color: #FFFFFF;
+    text-align: center;
+    position: relative;
+    flex-basis: 32%;
+    display: inline-flex;
+    margin: 20px;
+    cursor: pointer;
+    box-sizing: border-box;
+    transition: transform 0.5s;
+}
+.price-col:hover{
+    box-shadow: 0 0 20px 0px rgba(255,0,6,0.8);
+}
+
+.price-col h4{
+    font-size: 62px;
+    cursor: pointer;
+    color: #29CC17;
+}
+.price-col p{
+    text-align: center;
+    margin: 20px 0;
+    color: #FFFFFF;
+}
+.price-col p a{
+    color: #29CC17 ;
+    text-decoration: wave;
+    cursor: default;
+    text-align: center;
+}
+.price-col button{
+    width: 90%;
+    padding: 20px 10px;
+    background: linear-gradient(135deg,  #FC8DED, #1C1C1C);
+    border-radius: 3px;
+    border-color: #29CC17;
+    margin-top: 30px;
+    cursor: default;
+    color: #FFFFFF;
+    font-size: 13px;
+}
+.price-col button:hover{
+    background: linear-gradient(135deg, #1C1C1C, #EA06CB);
+}
+
+
+
+
+
+
+
+

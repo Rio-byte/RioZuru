@@ -1,0 +1,145 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: Arial, Helvetica, sans-serif;
+   }
+   body{
+        background-image: url("festive.jpg");
+        background-position: center;
+        background-size: cover;
+        height: 100vh;
+    }
+    .pricing-table{
+        max-width: 1200px;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+    .col{
+        flex: 25%;
+        padding: 10px;
+        max-width: 320px;
+        box-sizing: border-box;
+        cursor: pointer;
+    }
+    .table{
+        background:#FFFFFF;
+        padding: 40px 20px;
+        font-family: "montserrat",sans-serif;
+        position: relative;
+        overflow: hidden;
+        box-shadow: 0 0 10px #CBCE27;
+        transition: 0.2s ease-out;
+    }
+    .table:hover{
+        box-shadow:  0 0 10px #2DCC18;
+    }
+    .table h2{
+        text-transform: uppercase;
+    }
+    .table ul{
+        margin: 0;
+        padding: 0;
+    }
+    .table ul li{
+        padding: 10px;
+        list-style: none;
+    }
+    .price{
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+    .price span{
+        display: block;
+        font-size: 14px;
+    }
+    .table a{
+        text-decoration: none;
+        color: #7B1D14;
+        border: 2px solid #7B1D14;
+        display: block;
+        padding: 10px 0;
+        margin: 10px 0;
+        border-radius: 40px;
+        text-transform: uppercase;
+        font-size: 14px;
+        transition: 0.5s linear;
+    }
+    .table a:hover{
+        background: #7B1D14;
+        color: #FFFFFF;
+    }
+    .pop{
+        background: #7B1D14;
+        color: #FFFFFF;
+        transform: rotate(45deg);
+        padding: 10px 40px;
+        position: absolute;
+        top: 12px;
+        right: -34px;
+    }
+
+    @media screen and (max-width: 980px){
+        .col{
+            flex: 50%;
+        }
+
+    }
+
+     @media screen and (max-width: 700px){
+        .col{
+            flex: 100%;
+        }
+
+    }
+
+
+    .toggle{
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-wrap: wrap;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    .toggle a{
+        flex-basis: 25%;
+        text-decoration: none;
+        color: #7B1D14;
+        border: 2px solid #7B1D14;
+        display: block;
+        padding: 15px 0;
+        margin: 10px 0;
+        border-radius: 40px;
+        text-transform: uppercase;
+        background: #A8A8A8;
+        font-size: 14px;
+        transition: 0.5s linear;
+    }
+    .toggle a:hover{
+        background: #7B1D14;
+        color: #FFFFFF;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
